@@ -1,0 +1,38 @@
+max=n1
+ if max<n2:
+   max=n2
+ if max<n3:
+   max=n3
+ if max<n4:
+   max=n4
+print("max=",max)
+
+
+year=int(input("enter year: "))
+if year%100!=0:
+    if year%4==0:
+        print("non century leap year")
+    else:
+        print("not leap year")
+else:
+    if year%400==0:
+        print("century leap year")
+    else:
+        print("not leap year")
+
+o/p
+
+enter year: 2
+not leap year
+
+=== Code Execution Successful ===
+
+num=2025
+n1=no%100
+n2=no//100
+sum=n1+n2
+sq=n1+n2
+if sq==no:
+     tech no
+else:
+     not tech no

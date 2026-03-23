@@ -1,0 +1,120 @@
+ef compareTriplets(a, b):
+    # Write your code here
+    alice=0
+    bob=0
+   for i in range(int(a)):
+        if  a[i]>b[i]:
+            alice=alice+1
+        elif
+            bob=bob+1
+return alice,bob
+    for i in range(int(b)):
+        if  b[i]a<[i]:
+            alice=alice+1
+        elif
+            bob=bob+1
+return alice,bob
+   
+   
+    
+
+if __name__ == '__main__':
+    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+
+    a = list(map(int, input().rstrip().split()))
+
+    b = list(map(int, input().rstrip().split()))
+
+    result = compareTriplets(a, b)
+
+    fptr.write(' '.join(map(str, result)))
+    fptr.write('\n')
+
+    fptr.close()
+
+
+
+import math
+import os
+import random
+import re
+import sys
+
+#
+# Complete the 'diagonalDifference' function below.
+#
+# The function is expected to return an INTEGER.
+# The function accepts 2D_INTEGER_ARRAY arr as parameter.
+#
+
+def diagonalDifference(arr):
+    # Write your code here
+sum1
+sum2
+
+
+for i in range(int(arr)):
+    sum 1=sum2+arr[i][i]
+    sum2=sum2+arr[i][n-i-1]  
+ res=sum1+sum2
+ return abs(res)
+        
+
+if __name__ == '__main__':
+    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+
+    n = int(input().strip())
+
+    arr = []
+
+    for _ in range(n):
+        arr.append(list(map(int, input().rstrip().split())))
+
+    result = diagonalDifference(arr)
+
+    fptr.write(str(result) + '\n')
+
+    fptr.close()
+
+
+
+#!/bin/python3
+
+import math
+import os
+import random
+import re
+import sys
+
+#
+# Complete the 'plusMinus' function below.
+#
+# The function accepts INTEGER_ARRAY arr as parameter.
+#
+
+def plusMinus(arr):
+    # Write your code here
+       pos=0
+       neg=0
+       neg=0
+       n=int(arr)
+       for i in range(int arr)):
+        if arr[i]<0:
+           pos=1
+        elif arr[i]>0:
+           neg+neg=1
+        elif arr[i]=0:
+            zero=zero+1
+    pos=pos/n
+    neg+neg/neg
+    zero=zero/
+    print->
+       
+
+
+if __name__ == '__main__':
+    n = int(input().strip())
+
+    arr = list(map(int, input().rstrip().split()))
+
+    plusMinus(arr)
